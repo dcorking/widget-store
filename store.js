@@ -12,7 +12,7 @@ function removeHandler () {
     updateWidgetBasket();
   }
   if (widgetsInBasket < 1) {
-   console.log('Widget basket is empty');
+    console.log('Widget basket is empty');
   }
   tidyView();
 }
@@ -34,9 +34,9 @@ function buyHandler () {
     emptyWidgetBasket();
   }
   else {
-   console.log('Unable to order widgets');
-   // TODO: identify specific errors to user
-   $('#order_feedback').text('Sorry, you cannot order ' + widgetsInBasket + ' widgets at this time');
+    console.log('Unable to order widgets');
+    // TODO: identify specific errors to user
+    $('#order_feedback').text('Sorry, you cannot order ' + widgetsInBasket + ' widgets at this time');
   }
 }
 
@@ -45,7 +45,7 @@ function updateWidgetBasket () {
 }
 
 function updateWidgetStock () {
-    $('#widget_stock').text(widgetStock);
+  $('#widget_stock').text(widgetStock);
 }
 
 function tidyView () {
