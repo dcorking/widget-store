@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Widget Store</title>	
+    <!-- Source jquery from a Debian filesystem - change src for a webserver -->
+    <script language="javascript" type="text/javascript"
+        src="/usr/share/javascript/jquery/jquery.js"></script>
+  </head>
+  <body>
+    <h2>Widgets in stock</h2>
+    <p><span id="widget_stock">Loading</span> widgets</p>
+    <h2>Your basket</h2>
+    <p><span id="widget_basket">0</span> widgets</p>
+    <p>
+      <button id="add_widget">Add to basket</button>
+      <button id="remove_widget">Remove from basket</button>
+    </p>
+      <button id="submit_order">Submit order</button> <span id="order_feedback" />
+    </p> 
+  </body>
+  <script language="javascript" type="text/javascript"
+        src="store.js"></script>
+</html>
